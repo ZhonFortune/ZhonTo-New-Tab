@@ -30,7 +30,7 @@ npm run zt-newtab
 
 [点此下载<code>Plugin: [Chrome]New Tab Redirect</code>](./library/New%20Tab%20Redirect%20Chrome插件_3_1_4_.crx)
 
-### | 项目更新
+### 项目更新
 
 [点此查看项目更新日志](./document/update.md)
 
