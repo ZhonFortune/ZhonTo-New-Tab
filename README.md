@@ -14,9 +14,9 @@
 >该项目依赖<code>http-server</code>工具用于本地运行
 
 目前该项目提供了<code>npm</code>工具安装方式
-使用以下命令安装项目
+使用以下命令安装项目(当前尚未发布到npm)
 ```
-npm install -g zhonto-newtab 
+npm install zhonto-newtab 
 ```
 #### | 运行项目
 安装完成后，使用以下命令运行项目
