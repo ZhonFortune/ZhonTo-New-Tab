@@ -7,8 +7,9 @@
 您可以通过创建JSON文件来添加自己的课程表,您可以[点击此处](./document/课表JSON格式@24B4.md)来查看<code>ZhonTo New Tab 项目的 课程表标准化JSON 书写说明文件</code><br>
 >注意：请根据markdown文件中的JSON版本书写JSON文件，否则将无法正确读取课程表
 
-<Br>
+<br>
 
+---
 ### 安装项目
 #### | 拉取项目
 >该项目依赖<code>http-server</code>工具用于本地运行
@@ -30,6 +31,9 @@ npm run zt-newtab
 
 [点此下载<code>Plugin: [Chrome]New Tab Redirect</code>](./library/New%20Tab%20Redirect%20Chrome插件_3_1_4_.crx)
 
+<br>
+
+---
 ### 项目更新
 
 [点此查看项目更新日志](./document/update.md)
