@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zhcn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZhonFortune</title>
+    <link rel="icon" href="assets/title_icon.jpg">
+    <link rel="stylesheet" href="style/page.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/search.css">
+    <link rel="stylesheet" href="style/bottom.css">
+    <link rel="stylesheet" href="style/classtable.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_box">
+            <div class="header_function">
+                <div class="header_function_options" id="home" title="主页">
+                    <svg class="iconsvg_general" fill="5F4BB6" viewBox="0 0 31.5 32.7822" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path id="home_svg" d="M31.5 31.03C31.5 31.49 31.31 31.94 30.98 32.26C30.65 32.59 30.21 32.78 29.75 32.78L1.75 32.78C1.28 32.78 0.84 32.59 0.51 32.26C0.18 31.94 0 31.49 0 31.03L0 12.63C-0.01 12.37 0.06 12.1 0.17 11.87C0.29 11.63 0.46 11.42 0.67 11.25L14.67 0.36C14.98 0.12 15.36 0 15.75 0C16.13 0 16.51 0.12 16.82 0.36L30.82 11.25C31.03 11.42 31.2 11.63 31.32 11.87C31.43 12.1 31.5 12.37 31.5 12.63L31.5 31.03L31.5 31.03Z" fill="#5F4BB6" fill-opacity="1.000000" fill-rule="evenodd"/>
+                    </svg>
+                </div>
+                <!-- <div class="header_function_options" id="ppt" title="PPT">
+                    <svg class="iconsvg_general" fill="202A25" viewBox="0 0 27.5625 36.75" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g style="mix-blend-mode:normal">
+                            <path id="ppt_svg" d="M2.625 2.625L14.4377 2.625L14.4377 13.1585L24.9375 13.1585L24.9375 17.0625L27.5625 17.0625L27.5625 12.3488C27.5625 11.6613 27.2928 11.0013 26.8113 10.5105L17.2718 0.786682C16.7781 0.283508 16.1028 0 15.3979 0L2.61279 0C1.36511 0 0 0.885315 0 2.42001L0 34.33C0 35.8647 1.36511 36.75 2.61279 36.75L11.8125 36.75L11.8125 34.125L2.625 34.125L2.625 2.625ZM17.0627 10.5335L17.0627 4.32193L23.1566 10.5335L17.0627 10.5335ZM15.9469 36.75L18.1781 36.75L18.1781 29.9906L24.9375 29.9906C26.2785 29.9906 27.3656 28.9035 27.3656 27.5625L27.3656 23.625C27.3656 22.284 26.2785 21.1969 24.9375 21.1969L15.9469 21.1969L15.9469 36.75ZM18.1781 23.4281L18.1781 27.7594L24.9375 27.7594C25.0462 27.7594 25.1344 27.6712 25.1344 27.5625L25.1344 23.625C25.1344 23.5163 25.0462 23.4281 24.9375 23.4281L18.1781 23.4281Z" clip-rule="evenodd" fill="#202A25" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        </g>
+                    </svg>
+                </div> -->
+                <!-- <div class="header_function_options" id="excel" title="Excel">
+                    <svg class="iconsvg_general" fill="202A25" viewBox="0 0 35.0018 38.2305" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="M1.5 3.15L23.5 0C23.62 -0.01 23.75 0 23.87 0.03C23.99 0.07 24.1 0.13 24.19 0.21C24.29 0.29 24.37 0.39 24.42 0.51C24.47 0.62 24.5 0.74 24.5 0.87L24.5 37.35C24.5 37.48 24.47 37.6 24.42 37.71C24.37 37.83 24.29 37.93 24.2 38.01C24.1 38.09 23.99 38.15 23.87 38.19C23.75 38.23 23.62 38.23 23.5 38.22L1.5 35.08C1.08 35.02 0.7 34.81 0.42 34.49C0.15 34.17 0 33.76 0 33.34L0 4.88C0 4.46 0.15 4.05 0.42 3.73C0.7 3.41 1.08 3.2 1.5 3.15L1.5 3.15ZM3.5 6.4L3.5 31.82L21 34.32L21 3.9L3.5 6.4ZM26.25 31.36L31.5 31.36L31.5 6.86L26.25 6.86L26.25 3.36L33.25 3.36C33.71 3.36 34.16 3.54 34.48 3.87C34.81 4.2 35 4.65 35 5.11L35 33.11C35 33.57 34.81 34.02 34.48 34.35C34.16 34.68 33.71 34.86 33.25 34.86L26.25 34.86L26.25 31.36ZM14.35 19.11L19.25 26.11L15.05 26.11L12.25 22.11L9.45 26.11L5.25 26.11L10.15 19.11L5.25 12.11L9.45 12.11L12.25 16.11L15.05 12.11L19.25 12.11L14.35 19.11Z" fill="#444444" fill-opacity="1.000000" fill-rule="evenodd"/>
+                    </svg>                
+                </div>
+                <div class="header_function_options" id="word" title="word">
+                    <svg class="iconsvg_general" fill="202A25" viewBox="0 0 31.5 35" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path id="矢量 111" d="M22.75 10.5L22.75 24.5L19.25 24.5L15.75 21L12.25 24.5L8.75 24.5L8.75 10.5L12.25 10.5L12.25 19.25L15.75 15.75L19.25 19.25L19.25 10.5L21 10.5L21 3.5L3.5 3.5L3.5 31.5L28 31.5L28 10.5L22.75 10.5ZM0 1.73C0 0.77 0.78 0 1.74 0L22.75 0L31.5 8.75L31.5 33.23C31.5 33.46 31.45 33.69 31.37 33.9C31.28 34.12 31.15 34.31 30.99 34.47C30.83 34.64 30.64 34.77 30.43 34.86C30.21 34.95 29.99 34.99 29.76 35L1.73 35C1.27 34.99 0.83 34.81 0.51 34.48C0.18 34.16 0 33.72 0 33.26L0 1.73Z" fill="#444444" fill-opacity="1.000000" fill-rule="evenodd"/>
+                    </svg>               
+                </div> -->
+                <div class="header_function_options" id="classtable" title="课表">
+                    <svg class="iconsvg_general" fill="202A25" viewBox="0 0 28 24.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path id="classtable_svg" d="M27.125 0C27.6082 0 28 0.391754 28 0.875L28 23.625C28 24.1082 27.6082 24.5 27.125 24.5L0.875 24.5C0.391754 24.5 0 24.1082 0 23.625L0 0.875C0 0.391754 0.391754 0 0.875 0L27.125 0ZM8.75034 2.27353L2.27533 2.27527L2.27359 7.87527L8.75034 7.87527L8.75034 2.27353ZM10.9377 2.27353L25.7252 2.27527L25.7252 7.87527L10.9377 7.87527L10.9377 2.27353ZM8.75034 10.0623L2.27359 10.0623L2.27359 15.3614L8.75034 15.3614L8.75034 10.0623ZM10.9377 10.0623L25.7252 10.0623L25.7252 15.3614L10.9377 15.3614L10.9377 10.0623ZM8.75034 17.549L2.27359 17.549L2.27533 22.225L8.75034 22.225L8.75034 17.549ZM10.9377 17.549L25.7252 17.549L25.7252 22.225L10.9377 22.225L10.9377 17.549Z" clip-rule="evenodd" fill="#202A25" fill-opacity="1.000000" fill-rule="evenodd"/>
+                    </svg>              
+                </div>
+            </div>
+            <div class="header_id">
+                <div class="header_id_headsign">
+                    <img src="assets/title_icon.jpg">
+                </div>
+                <div class="header_id_name">
+                    <h1>ZhonFortune</h1>
+                </div>
+            </div>
+        </div>
+        <div class="time_box">
+            <div class="time">
+                <h1 class="time_date">N/A</h1>
+                <h1 class="time_num">N/A</h1>
+                <h1 class="time_week">N/A</h1>
+            </div>
+        </div>
+    </div>
+    <div class="search_sort">
+        <!-- 搜索框 -->
+        <div class="search_box">
+            <div class="search">
+                <div class="search_input_box">
+                    <input class="search_input_box_text" id="search_text" name="search_text" value="" type="text" placeholder="请输入搜索内容"/>    
+                </div>
+                <div class="search_input_button">
+                    <div class="search_input_button_icon">
+                        <svg class="iconsvg_general" viewBox="0 0 33.25 35" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path id="Vector" d="M20.05 24.27C18.04 25.52 15.66 26.25 13.12 26.25C5.87 26.25 0 20.37 0 13.12C0 5.87 5.87 0 13.12 0C20.37 0 26.25 5.87 26.25 13.12C26.25 16.56 24.92 19.69 22.76 22.03L32.73 32.01C33.42 32.69 33.42 33.8 32.73 34.48C32.05 35.17 30.94 35.17 30.26 34.48L20.05 24.27ZM22.75 13.12C22.75 18.44 18.44 22.75 13.12 22.75C7.8 22.75 3.5 18.44 3.5 13.12C3.5 7.8 7.8 3.5 13.12 3.5C18.44 3.5 22.75 7.8 22.75 13.12Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <!-- 搜索引擎 -->
+        <div class="search_engine_box">
+            <div class="search_engine_options" id="baidu" title="百度">
+                <div class="search_engine_options_icon">
+                    <svg width="26.939087" height="29.377106" viewBox="0 0 26.9391 29.3771" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path id="baidu_vector_1" d="M4.07 15.48C7.26 14.79 6.83 10.97 6.73 10.14C6.58 8.85 5.07 6.6 3.01 6.78C0.43 7.01 0.05 10.74 0.05 10.74C-0.3 12.47 0.89 16.16 4.07 15.48ZM10 9.07C11.76 9.07 13.18 7.04 13.18 4.53C13.18 2.02 11.76 0 10 0C8.23 0 6.81 2.02 6.81 4.53C6.81 7.04 8.23 9.07 10 9.07ZM17.59 9.37C19.94 9.68 21.45 7.16 21.76 5.26C22.07 3.35 20.54 1.14 18.88 0.76C17.21 0.37 15.12 3.05 14.93 4.8C14.7 6.94 15.23 9.07 17.59 9.37ZM26.92 12.58C26.92 11.66 26.17 8.91 23.36 8.91C20.54 8.91 20.17 11.51 20.17 13.34C20.17 15.09 20.32 17.53 23.81 17.46C27.3 17.38 26.92 13.49 26.92 12.58ZM23.36 20.58C23.36 20.58 19.71 17.76 17.59 14.71C14.7 10.21 10.6 12.05 9.23 14.33C7.87 16.62 5.74 18.07 5.44 18.45C5.13 18.83 1.04 21.04 1.95 25.08C2.86 29.12 6.05 29.05 6.05 29.05C6.05 29.05 8.4 29.28 11.13 28.67C13.87 28.06 16.22 28.82 16.22 28.82C16.22 28.82 22.6 30.96 24.34 26.84C26.09 22.72 23.36 20.58 23.36 20.58L23.36 20.58Z" fill="#2319DC" fill-opacity="1.000000" fill-rule="nonzero"/>
+	                    <path id="baidu_vector_2" d="M10.56 16.65L10.56 19.36L8.35 19.36C8.35 19.36 6.15 19.55 5.37 22.05C5.1 23.72 5.61 24.71 5.7 24.92C5.79 25.13 6.5 26.35 8.29 26.71L12.44 26.71L12.44 16.68L10.56 16.65ZM10.53 25.07L8.86 25.07C8.86 25.07 7.7 25.01 7.34 23.66C7.16 23.07 7.37 22.38 7.46 22.11C7.55 21.84 7.94 21.22 8.74 20.98L10.53 20.98L10.53 25.07ZM13.46 19.61L13.46 24.89C13.46 24.89 13.54 26.2 15.39 26.68L20.17 26.68L20.17 19.61L18.11 19.61L18.11 24.92L16.14 24.92C16.14 24.92 15.51 24.83 15.4 24.32L15.4 19.58L13.46 19.61Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="search_engine_options" id="bing" title="必应">
+                <div class="search_engine_options_icon">
+                    <svg viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path id="bing_vector_1" d="M5.12 6.59L6.86 10.92L9.63 12.21L14 14.24L14 9.7L5.12 6.59Z" fill="#333333" fill-opacity="1.000000" fill-rule="evenodd"/>
+	                    <path id="bing_vector_2" d="M9.63 12.21L4 15.45L4 1.4L0 0L0 17.76L4 20L14 14.24L14 9.7L9.63 12.21Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="search_engine_options" id="tiktok" title="抖音">
+                <div class="search_engine_options_icon">
+                    <svg viewBox="0 0 39.0038 45.0023" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path id="tiktok_vector" d="M34.14 9.62C33.84 9.46 33.54 9.29 33.26 9.1C32.42 8.55 31.66 7.9 30.98 7.17C29.28 5.23 28.65 3.26 28.42 1.88L28.43 1.88C28.23 0.74 28.31 0 28.32 0L20.59 0L20.59 29.88C20.59 30.28 20.59 30.68 20.58 31.07C20.58 31.12 20.57 31.16 20.57 31.22C20.57 31.24 20.57 31.26 20.57 31.28C20.57 31.29 20.57 31.29 20.57 31.3C20.48 32.37 20.14 33.41 19.56 34.32C18.99 35.22 18.2 35.98 17.26 36.51C16.29 37.06 15.19 37.35 14.07 37.35C10.47 37.35 7.55 34.42 7.55 30.79C7.55 27.16 10.47 24.23 14.07 24.23C14.75 24.23 15.43 24.33 16.07 24.55L16.08 16.68C14.12 16.42 12.12 16.58 10.21 17.14C8.31 17.69 6.54 18.64 5.02 19.91C3.69 21.07 2.57 22.45 1.71 23.99C1.38 24.56 0.15 26.82 0 30.48C-0.09 32.57 0.54 34.72 0.83 35.62L0.83 35.63C1.02 36.16 1.75 37.95 2.93 39.46C3.89 40.67 5.02 41.74 6.28 42.62L6.28 42.6L6.3 42.62C10.04 45.16 14.19 45 14.19 45C14.91 44.97 17.31 45 20.04 43.7C23.07 42.27 24.8 40.13 24.8 40.13C25.9 38.85 26.78 37.39 27.39 35.82C28.09 33.98 28.32 31.78 28.32 30.9L28.32 15.04C28.42 15.1 29.67 15.92 29.67 15.92C29.67 15.92 31.47 17.08 34.27 17.83C36.29 18.36 39 18.47 39 18.47L39 10.8C38.05 10.9 36.12 10.6 34.14 9.62Z">
+                    </svg>
+                </div>
+            </div>
+            <div class="search_engine_options" id="bilibili" title="哔哩哔哩">
+                <div class="search_engine_options_icon">
+                    <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1471" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
+                        <path id="bilibili_vector" d="M306.005333 117.632L444.330667 256h135.296l138.368-138.325333a42.666667 42.666667 0 0 1 60.373333 60.373333L700.330667 256H789.333333A149.333333 149.333333 0 0 1 938.666667 405.333333v341.333334a149.333333 149.333333 0 0 1-149.333334 149.333333h-554.666666A149.333333 149.333333 0 0 1 85.333333 746.666667v-341.333334A149.333333 149.333333 0 0 1 234.666667 256h88.96L245.632 177.962667a42.666667 42.666667 0 0 1 60.373333-60.373334zM789.333333 341.333333h-554.666666a64 64 0 0 0-63.701334 57.856L170.666667 405.333333v341.333334a64 64 0 0 0 57.856 63.701333L234.666667 810.666667h554.666666a64 64 0 0 0 63.701334-57.856L853.333333 746.666667v-341.333334A64 64 0 0 0 789.333333 341.333333zM341.333333 469.333333a42.666667 42.666667 0 0 1 42.666667 42.666667v85.333333a42.666667 42.666667 0 0 1-85.333333 0v-85.333333a42.666667 42.666667 0 0 1 42.666666-42.666667z m341.333334 0a42.666667 42.666667 0 0 1 42.666666 42.666667v85.333333a42.666667 42.666667 0 0 1-85.333333 0v-85.333333a42.666667 42.666667 0 0 1 42.666667-42.666667z" p-id="1472"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+    <div class="bottom">
+        <!-- 待办卡片 -->
+        <div class="due_box">
+            <div class="due_header">
+                <div class="due_title">课程</div>
+            </div>
+            <div class="due_body">
+                <div class="due_body_break"></div>
+                <div class="due_body_content_box">
+                    <div class="due_body_content">
+                        <div class="due_body_content_header">
+                            <div class="due_body_content_classname">
+                                <h1>高等数学</h1>
+                            </div>
+                            <div class="due_body_content_degree">
+                                <div class="due_body_content_degree_sign_box">
+                                    <div class="due_body_content_degree_sign"></div>
+                                </div>
+                                <div class="due_body_content_degree_text_box">
+                                    <div class="due_body_content_degree_text">
+                                        <h1></h1>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="due_body_location_box">
+                            <div class="due_body_location_sign_box">
+                                <div class="due_body_location_sign"></div>
+                            </div>
+                            <div class="due_body_location_text_box">
+                                <div class="due_body_location_text">
+                                    <h1>公颜实训大楼</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="due_body_bottom_box">
+                            <div class="due_body_bottom_time_box">
+                                <div class="due_body_bottom_time">
+                                    <h1 id="due_time_title">时间:</h1>
+                                    <h1 id="due_time_text_start">8:00</h1>
+                                    <h1 id="due_time_text_line">-</h1>
+                                    <h1 id="due_time_text_end">9:40</h1>
+                                </div>
+                            </div>
+                            <div class="due_body_bottom_button_box">
+                                <div class="due_body_time_button">
+                                    <h1>确定</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+    <div class="classtable_box">
+        <div class="classtable">
+            <!-- 课程周目 表头-->
+            <div class="classtable_header_box">
+                <!-- <div style="position: fixed;z-index: -999;height: 50px;margin-top: -12px;background-color: white;width:100%;flex-direction: row;align-items: center;"></div> -->
+                <div class="classtable_header">
+                    <!-- 课程节数与时间  该元素为空预留 头部留空 -->
+                    <!-- 留空为 保证后续添加的课程表与表头对齐 -->
+                    <div class="classtable_classnumt_start_box">
+                        <div class="classtable_classnumt">
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </div>
+                    <!-- 以下为具体周目 -->
+                    <div class="classtable_classweeknum_box" id="class_header_Mon">
+                        <h1>周一</h1>
+                    </div>
+                    <div class="classtable_classweeknum_box" id="class_header_Tue">
+                        <h1>周二</h1>
+                    </div>
+                    <div class="classtable_classweeknum_box" id="class_header_Wed">
+                        <h1>周三</h1>
+                    </div>
+                    <div class="classtable_classweeknum_box" id="class_header_Thu">
+                        <h1>周四</h1>
+                    </div>
+                    <div class="classtable_classweeknum_box" id="class_header_Fri">
+                        <h1>周五</h1>
+                    </div>
+                    <div class="classtable_classweeknum_box" id="class_header_Sat">
+                        <h1>周六</h1>
+                    </div>
+                    <div class="classtable_classweeknum_box" id="class_header_Sun">
+                        <h1>周日</h1>
+                    </div>
+                    <!--该元素用于 尾部留空 -->
+                     <!-- 留空为 保证后续添加的课程表与表头对齐 -->
+                    <div class="classtable_classnumt_end_box">
+                        <div class="classtable_classnumt">
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex;height: 50px;width: 98%;flex-direction: row;align-items: center;">
+            </div>
+            <!-- 课程 (相邻间距颜色不一 以便观察) -->
+            <!-- classtable_class_box内的元素为JS根据./classtable内JSON文件下"class_set"参数长度动态添加 
+                节数用ID进参 ID命名规则:
+                classtable_class_line = 当前课程节数 
+                classtable_classweeknum_box：
+                    Mon_{%classtable_class_line.id}
+                    Tue_{%classtable_class_line.id}
+                    Wed_{%classtable_class_line.id}
+                    Thu_{%classtable_class_line.id}
+                    Fri_{%classtable_class_line.id}
+                    Sat_{%classtable_class_line.id}
+                    Sun_{%classtable_class_line.id}
+            -->
+            <div class="classtable_class_box">
+                <!-- <div class="classtable_class_line">
+                    <div class="classtable_classnumt_start_box">
+                        <div class="classtable_classnumt">
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="classtable_classweeknum_box">
+                        <h1></h1>
+                    </div>
+                    <div class="classtable_classweeknum_box">
+                        <h1></h1>
+                    </div>
+                    <div class="classtable_classweeknum_box">
+                        <h1></h1>
+                    </div>
+                    <div class="classtable_classweeknum_box">
+                        <h1></h1>
+                    </div>
+                    <div class="classtable_classweeknum_box">
+                        <h1></h1>
+                    </div>
+                    <div class="classtable_classweeknum_box">
+                        <h1></h1>
+                    </div>
+                    <div class="classtable_classweeknum_box">
+                        <h1></h1>
+                    </div>
+                    <div class="classtable_classnumt_end_box">
+                        <div class="classtable_classnumt">
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- 下列为动态添加的盒子 -->
+            </div>
+        </div>
+    </div>
+    <!-- 加载功能组件 -->
+    <script type="module" src="./functions/classtable.js"></script>
+    <script type="module" src="./functions/menu.js"></script>
+    <script type="module" src="./functions/time.js"></script>
+    <script type="text/javascript" src="./functions/search_engine.js"></script>
+    <script type="module" src="./functions/due.js"></script>
+    <!-- 库 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script> -->
+</body>
+</html>

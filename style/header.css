@@ -1,0 +1,106 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    min-height: 50px;
+}
+.header_box{
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.header_function{
+    width: 83%;
+    margin-right: 20px;
+    margin-left: 25px;
+    background-color: white;
+}
+.header_id{
+    width: 13%;
+    margin-right: 25px;
+    background-color: #202A25;
+}
+.header_function,.header_id{
+    min-height: 50px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.header_id_headsign{
+    width: 42px;
+    margin-right: 4px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: white;
+}
+.header_id_name{
+    min-width: 25px;
+    margin-right: 10px;
+}
+.header_id_headsign,.header_id_name{height: 42px; display: flex; margin-top: 4px; float: right;}
+.header_id_name h1{
+    text-align: right;
+    line-height: 42px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "思源黑体";
+}
+.header_id_headsign img{
+    max-width: 100%;
+}
+.header_function_options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    margin-top: 8px;
+    margin-left: 42px;margin-right: 28px;
+}
+.iconsvg_general{
+    height: 60%;
+    width: 60%;
+}
+.time_box{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-top: 10px;
+    height: 25px;
+    transition: all ease-in-out 0.1s 0.2s;
+    overflow: hidden;
+}
+.time{
+    min-width: 120px;
+    height: 100%;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: #5F4BB6;
+}
+.time h1{
+    font-size: 0.7rem;
+    font-family: "思源黑体";
+    color: white;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    font-weight: lighter;
+}
+.time_date{
+    margin-left: 25px;
+    margin-right: 2px;
+}
+.time_num{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.time_week{
+    margin-left: 2px;
+    margin-right: 25px;
+}

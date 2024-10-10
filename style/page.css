@@ -1,0 +1,9 @@
+body{height: 100%; width: 100%; background-color: #F4F4F4; overflow-x: hidden;}
+body::-webkit-scrollbar{display: none;}
+a{text-decoration: none;}
+*{margin: 0; padding: 0;}
+h1{font-size: 1rem; color: black;}
+input{border: 0; outline: 0; font-size: 1rem}
+input::placeholder{color: black;}
+input:focus{outline: none;}
+/* 全局CSS样式 */

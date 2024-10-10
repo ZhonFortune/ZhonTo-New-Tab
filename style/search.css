@@ -1,0 +1,92 @@
+.search_sort{
+    width: 100%;
+    min-height: 60%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.search_box{
+    width: 65%;
+    height: 70px;
+    flex-direction: row;
+}
+.search{
+    width: 100%;
+    height: 70px;
+}
+.search_input_box{
+    cursor: text;
+    display: flex;
+    height: 55px;
+    width: 80%;
+    margin-right: 25px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: white;
+}
+.search_input_button{
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    border-radius: 60px;
+    background-color: #86A5D9;
+}
+.search_input_button_icon{
+    width: 42px;
+    height: 42px;
+}
+.search_box,.search,.search_input_button,.search_input_button_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_input_box_text{
+    height:100%;
+    width: 94%;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: black;
+    font-family: "思源黑体";
+}
+.search_input_box_text::placeholder{
+    font-size: 0.8rem;
+    color: #6E6E6E;
+    font-family: "思源黑体";
+    letter-spacing: 2px;
+}
+.search_engine_box{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 55%;
+    height: 50px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.search_engine_options{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all ease-in-out 0.3s 0s;
+}
+.search_engine_options_icon{
+    height: 40px;
+    width: 40px;
+    transition: all ease-in-out 0.3s 0.1s;
+}
+.search_engine_options_icon svg{
+    height: 60%;
+    width: 60%;
+}
+.search_engine_options,.search_engine_options_icon{display: flex;justify-content: center;align-items: center;}
+.search_engine_options:hover{background-color: #86A5D9;}
+#baidu:hover .search_engine_options_icon svg #baidu_vector_1{fill: white}
+#baidu:hover .search_engine_options_icon svg #baidu_vector_2{fill: #2319DC}
+#bing:hover .search_engine_options_icon svg #bing_vector_1{fill: white}
+#bing:hover .search_engine_options_icon svg #bing_vector_2{fill: rgb(238, 238, 238)}
+#tiktok:hover .search_engine_options_icon svg #tiktok_vector{fill: white}
+#bilibili:hover .search_engine_options_icon svg #bilibili_vector{fill: white}
