@@ -13,7 +13,7 @@
 #### | 拉取项目
 >该项目依赖<code>http-server</code>工具用于本地运行
 
-目前改项目提供了<code>npm</code>工具安装方式
+目前该项目提供了<code>npm</code>工具安装方式
 使用以下命令安装项目
 ```
 npm install -g zhonto-newtab 
