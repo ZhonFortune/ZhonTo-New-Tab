@@ -31,6 +31,7 @@
 Node.js : npm
 # 依赖包
 http-server
+live-server
 ```
 
 <br>
@@ -65,6 +66,7 @@ npm install zhonto-new-tab -g
 ```shell
 # 在安装目录中打开终端执行命令
 npm run server
+npm run start
 ```
 ```shell
 # 全局命令

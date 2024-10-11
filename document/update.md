@@ -1,3 +1,11 @@
+# Beta 0.2.5
+```shell
+- 新增依赖库 live-server
+- 新增运行命令 npm run start
+```
+
+<br>
+
 # Beta 0.2.3
 ```
 - 添加了全局命令 zhonto-newtab
