@@ -73,7 +73,7 @@ npm run server
 由于当前主流浏览器已关闭自定义新标签页地址的功能,所以部署该项目需要借助浏览器插件.鉴于Google Chrome插件商店在国内无法正常访问,所以本项目暂时只提供<code>Chrome</code>浏览器插件的下载支持
 <br>
 
-<a href ="./library/New%20Tab%20Redirect%20Chrome%20Plugin_3_1_4_.crx" download="./library/New%20Tab%20Redirect%20Chrome%20Plugin_3_1_4_.crx">![Chrome Plugin](https://img.shields.io/badge/点此下载-4286F3?logo=google-chrome&logoColor=white)</a><br>
+<a href ="./library/New%20Tab%20Redirect%20Chrome%20Plugin_3_1_4.crx" download="./library/New%20Tab%20Redirect%20Chrome%20Plugin_3_1_4.crx">![Chrome Plugin](https://img.shields.io/badge/点此下载-4286F3?logo=google-chrome&logoColor=white)</a><br>
 若您无法正常下载可在项目文件 <code>library</code> 中找到.rcx文件
 关键词: <code>New Tab Redirect Chrome Plugin_3_1_4.rcx</code>
 
