@@ -66,7 +66,10 @@ npm install zhonto-new-tab -g
 # 在安装目录中打开终端执行命令
 npm run server
 ```
-
+```shell
+# 全局命令
+zhonto-newtab
+```
 <br>
 
 ### 部署
