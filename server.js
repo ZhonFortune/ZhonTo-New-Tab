@@ -8,7 +8,7 @@ const childProcess = require('child_process');
 var port = 5080;
 var host = '127.0.0.1'
 // 设置静态文件目录
-const staticPath = path.join(__dirname, './');
+const staticPath = path.join(__dirname, './dist/');
 // 指定静态文件目录
 app.use(express.static(staticPath));
 // 监听端口
