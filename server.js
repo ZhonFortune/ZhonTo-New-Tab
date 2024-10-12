@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 // 部署前端服务器
+// https://registry.npmmirror.com 镜像地址
+// https://registry.npmjs.com 原生地址
+// npm config set registry https://registry.npmmirror.com
+// npm config set registry https://registry.npmjs.com
 var express = require('express');
 var app = express();
 var path = require('path');
