@@ -2,7 +2,7 @@
 
 ![HTML5](https://img.shields.io/badge/HTML-400000?logo=html5) ![CSS3](https://img.shields.io/badge/CSS3-5AF06E?logo=css3&color) ![Javascript](https://img.shields.io/badge/Javascript-F8A035?logo=Javascript) ![Version](https://img.shields.io/github/package-json/v/ZhonFortune/ZhonTo-New-Tab) ![License](https://img.shields.io/github/license/ZhonFortune/ZhonTo-New-Tab) ![platform](https://img.shields.io/badge/Platform-Desktop-01D7E2)
 
-[快速开始](#usage) | [课表JSON](#classtable_json)
+[教程文档](https://docs.qq.com/doc/DUm1aSGVrZWxrcUpt) | [快速开始](#usage) | [更新日志](./document/update.md) | [课表JSON](#classtable_json) 
 <br>
 ## 项目简介 :page_with_curl:
 该项目创建了一个用于植入浏览器的全新标签页，本标签页以简介、简洁、美观为设计理念。其内置了<code>BiliBili</code> <code>Douyin</code> <code>Bing</code> <code>Baidu</code> 四大平台的搜索API，您只需轻点即可快速在各个平台进行搜索
