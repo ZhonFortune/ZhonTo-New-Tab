@@ -31,7 +31,7 @@
 Node.js : npm
 # 依赖包
 http-server
-live-server
+express
 ```
 
 <br>
@@ -83,8 +83,8 @@ zhonto-newtab
 关键词: <code>New Tab Redirect Chrome Plugin_3_1_4.rcx</code>
 
 > [!TIP]
-> 项目默认在本地IP: <code>localhost</code> <code>127.0.0.1</code> 上的<code>5080</code> 端口运行
-> 如果需要更改端口,请修改<code>package.json</code>下的<code>server</code>字段
+> 项目默认在本地IP: <code>127.0.0.1</code> 上的<code>5080</code> 端口运行
+> 如果需要更改端口,请修改<code>package.json</code>下的<code>server</code>字段和<code>server.js</code>中的<code>port</code>字段
 
 <br>
 
