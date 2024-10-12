@@ -53,11 +53,11 @@ express
 ### 安装
 ```shell
 # 安装至某个文件夹 : 在目标文件中打开终端执行命令
-npm install zhonto-new-tab --save
+npm install zhonto-newtab --save
 ```
 ```shell
 # 安装至全局 : 在终端执行命令
-npm install zhonto-new-tab -g
+npm install zhonto-newtab -g
 ```
 
 <br>
