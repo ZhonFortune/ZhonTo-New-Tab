@@ -18,38 +18,25 @@
     margin-left: 25px;
     background-color: white;
 }
-.header_id{
+.header_message{
     width: 13%;
     margin-right: 25px;
     background-color: #202A25;
+    cursor: pointer;
 }
-.header_function,.header_id{
+.header_function,.header_message{
     min-height: 50px;
     display: inline-block;
     border-radius: 20px;
 }
-.header_id_headsign{
-    width: 42px;
-    margin-right: 4px;
-    overflow: hidden;
-    border-radius: 15px;
-    background-color: white;
-}
-.header_id_name{
-    min-width: 25px;
-    margin-right: 10px;
-}
-.header_id_headsign,.header_id_name{height: 42px; display: flex; margin-top: 4px; float: right;}
-.header_id_name h1{
-    text-align: right;
-    line-height: 42px;
+.header_message h1{
+    text-align: center;
     color: white;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 0.8rem;
     font-family: "思源黑体";
-}
-.header_id_headsign img{
-    max-width: 100%;
+    letter-spacing: 0.8px;
+    line-height: 50px;
+    cursor: pointer;
 }
 .header_function_options{
     display: flex;

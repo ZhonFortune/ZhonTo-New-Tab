@@ -22,7 +22,7 @@
     height: 55px;
     width: 80%;
     margin-right: 25px;
-    border-radius: 30px;
+    border-radius: 15px;
     overflow: hidden;
     background-color: white;
 }
@@ -30,8 +30,12 @@
     cursor: pointer;
     height: 55px;
     width: 55px;
-    border-radius: 60px;
-    background-color: #86A5D9;
+    border-radius: 20px;
+    background-color: #5F4BB6;
+    transition: all ease-in-out 0.3s 0s;
+}
+.search_input_button:hover{
+    background-color: #000000;
 }
 .search_input_button_icon{
     width: 42px;

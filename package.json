@@ -1,7 +1,7 @@
 {
   "name": "zhonto-newtab",
-  "version": "0.2.6",
-  "description": "测试版 0.2.6",
+  "version": "0.2.7",
+  "description": "测试版 0.2.7",
   "main": "index.html",
   "bin": {
     "zhonto-newtab": "server.js"
@@ -12,7 +12,7 @@
     "start": "node server.js"
   },
   "author": "ZhonFortune",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.21.1",
     "http-server": "^14.1.1"

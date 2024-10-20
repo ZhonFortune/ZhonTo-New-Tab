@@ -2,7 +2,10 @@
 // 单次页面刷新前仅加载一次避免性能问题
 // 
 // load_check用于检测是否加载过 0表示未加载 1表示已加载
+// 导入时间组件
 import { nowtime_week } from "./time.js";
+// 导入消息框组件
+import { message } from "./message.js";
 var load_check = 0;
 var main = document.getElementById("classtable")
 // 新建行 函数
@@ -141,8 +144,8 @@ main.addEventListener("click", function () {
                     console.log("未知的JSON版本号")
                 }
             } else {
-                // 读取失败则输出错误信息
-                console.log("读取失败")
+                // 读取失败则报告提示
+                message("无法读取课表JSON","warn")
             }
         }
     } else {
